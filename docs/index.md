@@ -1,24 +1,29 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: 'Vue Module'
-  text: 'Vue Module Description'
-  tagline: My great project tagline
+  text: 'Load Module Plugin for Vue.js'
+  tagline: Flexible, declarative, and dynamic module system for Vue.js
+  image:
+    src: /logo.svg
+    alt: Vue Module
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guide/installation
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/nikolaynau/vue-module
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 💪
+    title: Seamless Module Interaction
+    details: Effortlessly configure and manage interactions between modules using intuitive hooks like onInstalled.
+  - icon: 🧩
+    title: Real-Time Module Control
+    details: Enable or disable modules dynamically without reloading the page for a smoother user experience.
+  - icon: 🚀
+    title: Optimized Dynamic Loading
+    details: Leverage code-splitting to load modules on demand, reducing initial load times and improving app performance.
 ---
