@@ -7,6 +7,6 @@ export default [
   ...vueTsEslintConfig(),
   skipFormattingConfig,
   {
-    ignores: ['dist/*', '**/dist']
+    ignores: ['dist/*', '**/dist', 'docs/.vitepress/cache']
   }
 ];
